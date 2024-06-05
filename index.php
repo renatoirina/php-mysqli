@@ -17,6 +17,9 @@ try {
 
 }
 
-var_dump($connection);
+$sql = "SELECT * FROM `departments`";
+$result = $connection->query($sql);
+
+var_dump($result);
 
 ?>
