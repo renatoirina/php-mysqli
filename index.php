@@ -18,3 +18,5 @@ try {
 }
 
 var_dump($connection);
+
+?>
